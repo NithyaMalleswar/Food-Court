@@ -1,0 +1,105 @@
+/* Delivering Page Styles */
+.delivering-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10rem 1rem 3rem 1rem;
+  background: #fff;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.delivering-hero {
+  background: linear-gradient(120deg, #30d5c8 0%, #f9f871 100%);
+  border-radius: 1.2rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 24px rgba(48,213,200,0.08);
+}
+.delivering-hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+  color: #0a2463;
+  letter-spacing: 1px;
+}
+.delivering-hero p {
+  font-size: 1.2rem;
+  color: #333;
+}
+.delivering-overview, .delivering-process, .delivering-area, .delivering-faq, .delivering-cta {
+  margin-bottom: 2.2rem;
+  background: #f7f7f7;
+  border-radius: 0.7rem;
+  padding: 1.3rem 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.delivering-overview h2, .delivering-process h2, .delivering-area h2, .delivering-faq h2, .delivering-cta h2 {
+  color: #30d5c8;
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.delivering-overview ul, .delivering-faq ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.delivering-overview li, .delivering-faq li {
+  margin-bottom: 0.7rem;
+  font-size: 1.08rem;
+  list-style: disc;
+}
+.delivering-process ol {
+  padding-left: 1.3rem;
+  margin: 0;
+}
+.delivering-process li {
+  margin-bottom: 0.5rem;
+  font-size: 1.08rem;
+  list-style: decimal;
+}
+.delivering-area p {
+  font-size: 1.08rem;
+  color: #444;
+}
+.delivering-faq li strong {
+  color: #0a2463;
+}
+.delivering-cta {
+  background: #30d5c8;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(48,213,200,0.08);
+}
+.delivering-cta h2 {
+  color: #fff;
+}
+.delivering-order-link {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #0a2463;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7rem 2.2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(10,36,99,0.10);
+  transition: background 0.25s, color 0.25s, transform 0.18s;
+}
+.delivering-order-link:hover {
+  background: #fdc468;
+  color: #0a2463;
+  transform: scale(1.07);
+}
+@media (max-width: 600px) {
+  .delivering-container {
+    padding: 1rem 0.2rem 2rem 0.2rem;
+  }
+  .delivering-hero h1 {
+    font-size: 1.6rem;
+  }
+  .delivering-hero p, .delivering-overview li, .delivering-process li, .delivering-area p, .delivering-faq li {
+    font-size: 0.98rem;
+  }
+  .delivering-cta h2 {
+    font-size: 1.2rem;
+  }
+}

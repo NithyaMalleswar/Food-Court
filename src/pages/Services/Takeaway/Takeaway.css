@@ -1,0 +1,101 @@
+/* Takeaway Page Styles */
+.takeaway-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12rem 1rem 3rem 1rem;
+  background: #fff;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.takeaway-hero {
+  background: linear-gradient(120deg, #f9f871 0%, #ffb347 100%);
+  border-radius: 1.2rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 24px rgba(255,179,71,0.08);
+}
+.takeaway-hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+  color: #e07a1b;
+  letter-spacing: 1px;
+}
+.takeaway-hero p {
+  font-size: 1.2rem;
+  color: #333;
+}
+.takeaway-overview, .takeaway-process, .takeaway-menu, .takeaway-faq, .takeaway-cta {
+  margin-bottom: 2.2rem;
+  background: #f7f7f7;
+  border-radius: 0.7rem;
+  padding: 1.3rem 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.takeaway-overview h2, .takeaway-process h2, .takeaway-menu h2, .takeaway-faq h2, .takeaway-cta h2 {
+  color: #e07a1b;
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.takeaway-overview ul, .takeaway-menu ul, .takeaway-faq ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.takeaway-overview li, .takeaway-menu li, .takeaway-faq li {
+  margin-bottom: 0.7rem;
+  font-size: 1.08rem;
+  list-style: disc;
+}
+.takeaway-process ol {
+  padding-left: 1.3rem;
+  margin: 0;
+}
+.takeaway-process li {
+  margin-bottom: 0.5rem;
+  font-size: 1.08rem;
+  list-style: decimal;
+}
+.takeaway-faq li strong {
+  color: #e07a1b;
+}
+.takeaway-cta {
+  background: #e07a1b;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(224,122,27,0.10);
+}
+.takeaway-cta h2 {
+  color: #fff;
+}
+.takeaway-order-link, .takeaway-menu-link {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #f9f871;
+  color: #e07a1b;
+  font-weight: bold;
+  padding: 0.7rem 2.2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(224,122,27,0.10);
+  transition: background 0.25s, color 0.25s, transform 0.18s;
+}
+.takeaway-order-link:hover, .takeaway-menu-link:hover {
+  background: #fffbe6;
+  color: #e07a1b;
+  transform: scale(1.07);
+}
+@media (max-width: 600px) {
+  .takeaway-container {
+    padding: 1rem 0.2rem 2rem 0.2rem;
+  }
+  .takeaway-hero h1 {
+    font-size: 1.6rem;
+  }
+  .takeaway-hero p, .takeaway-overview li, .takeaway-process li, .takeaway-menu li, .takeaway-faq li {
+    font-size: 0.98rem;
+  }
+  .takeaway-cta h2 {
+    font-size: 1.2rem;
+  }
+}

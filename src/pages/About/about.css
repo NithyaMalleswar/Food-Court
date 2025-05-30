@@ -1,0 +1,110 @@
+/* About Page Styles */
+
+.about-container {
+  min-height: 100vh;
+  padding: 180px 0 180px 0;
+  background: linear-gradient(135deg, #f8fffe 0%, #e0f7fa 50%, #30d5c8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-hero {
+  background: linear-gradient(90deg, #30d5c8 60%, #f8fffe 100%);
+  color: #0a2463;
+  padding: 32px 32px 18px 32px;
+  border-radius: 18px;
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 32px rgba(48,213,200,0.10);
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.about-story,
+.about-philosophy,
+.about-why,
+.about-team,
+.about-promise,
+.about-closing {
+  background: linear-gradient(90deg, #f8fffe 60%, #e0f7fa 100%);
+  color: #0a2463;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(48,213,200,0.07);
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 28px;
+  padding: 28px 32px 22px 32px;
+}
+
+.about-story h2,
+.about-philosophy h2,
+.about-why h2,
+.about-team h2,
+.about-promise h2,
+.about-closing h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1a3a5c;
+  font-weight: 600;
+}
+
+.about-story p,
+.about-team p,
+.about-promise p,
+.about-closing p {
+  font-size: 1.08rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.about-philosophy ul,
+.about-why ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.about-philosophy li,
+.about-why li {
+  font-size: 1.08rem;
+  margin-bottom: 8px;
+  color: #2d5c7f;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    padding: 24px 0 24px 0;
+  }
+  .about-hero,
+  .about-story,
+  .about-philosophy,
+  .about-why,
+  .about-team,
+  .about-promise,
+  .about-closing {
+    padding: 18px 10px 14px 10px;
+    max-width: 98vw;
+  }
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+  .about-story h2,
+  .about-philosophy h2,
+  .about-why h2,
+  .about-team h2,
+  .about-promise h2,
+  .about-closing h2 {
+    font-size: 1.25rem;
+  }
+}

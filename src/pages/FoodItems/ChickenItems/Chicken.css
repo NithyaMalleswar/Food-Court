@@ -1,0 +1,92 @@
+/* Chicken Items Page Styles */
+.chicken-items-container {
+  max-width: 1200px;
+  margin: 6rem auto 3rem auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.chicken-items-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #e67e22;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.chicken-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+.chicken-card {
+  background: #fff7ef;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(230,126,34,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.chicken-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(230,126,34,0.13);
+}
+.chicken-img {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+/* Unique background images for each dish (replace URLs with your own images if available) */
+
+
+.chicken-info {
+  padding: 1rem 1.2rem 1.4rem 1.2rem;
+  text-align: center;
+}
+.chicken-info h2 {
+  color: #002169;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.chicken-info p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.add-item-btn {
+  display: inline-block;
+  background: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(230,126,34,0.12);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.add-item-btn:hover, .add-item-btn:focus {
+  background: #cf711f;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px rgba(230,126,34,0.16);
+  outline: none;
+}
+
+
+@media (max-width: 700px) {
+  .chicken-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .chicken-items-container {
+    padding: 0.5rem;
+  }
+}

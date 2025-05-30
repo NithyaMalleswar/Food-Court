@@ -1,0 +1,161 @@
+/* Catering Page Styles */
+
+.catering-container {
+  min-height: 100vh;
+  padding: 180px 0 60px 0; /* Increased top padding for navbar overlap */
+  background: linear-gradient(120deg, #f8fffe 0%, #e0f7fa 50%, #30d5c8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catering-hero {
+  background: linear-gradient(90deg, #30d5c8 60%, #f8fffe 100%);
+  color: #0a2463;
+  padding: 32px 32px 18px 32px;
+  border-radius: 18px;
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 32px rgba(48,213,200,0.10);
+}
+
+.catering-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.catering-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.catering-overview,
+.catering-why,
+.catering-booking,
+.catering-testimonials,
+.catering-closing {
+  background: linear-gradient(90deg, #f8fffe 60%, #e0f7fa 100%);
+  color: #0a2463;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(48,213,200,0.07);
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 28px;
+  padding: 28px 32px 22px 32px;
+}
+
+.catering-overview h2,
+.catering-why h2,
+.catering-booking h2,
+.catering-testimonials h2,
+.catering-closing h2,
+.catering-menu h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1a3a5c;
+  font-weight: 600;
+}
+
+.catering-overview ul,
+.catering-why ul,
+.catering-booking ol {
+  padding-left: 18px;
+  margin: 0 0 10px 0;
+}
+
+.catering-overview li,
+.catering-why li,
+.catering-booking li {
+  font-size: 1.08rem;
+  margin-bottom: 8px;
+  color: #2d5c7f;
+  line-height: 1.6;
+}
+
+.catering-menu {
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 28px 32px 22px 32px;
+  background: linear-gradient(90deg, #e0f7fa 60%, #f8fffe 100%);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(48,213,200,0.07);
+}
+
+.catering-menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.menu-item {
+  flex: 1 1 250px;
+  min-width: 230px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(48,213,200,0.08);
+  padding: 18px 16px 14px 16px;
+  margin-bottom: 10px;
+  color: #0a2463;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.menu-item:hover {
+  box-shadow: 0 6px 24px rgba(48,213,200,0.15);
+  transform: translateY(-4px) scale(1.03);
+}
+.menu-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.menu-item p {
+  font-size: 1rem;
+  color: #2d5c7f;
+}
+
+.catering-contact-info {
+  font-size: 1.1rem;
+  color: #0a2463;
+  margin-top: 8px;
+}
+
+.catering-testimonials blockquote {
+  font-size: 1.08rem;
+  background: #e0f7fa;
+  color: #0a2463;
+  border-left: 4px solid #30d5c8;
+  margin: 16px 0 10px 0;
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-style: italic;
+}
+.catering-testimonials span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.98rem;
+  color: #1a3a5c;
+}
+
+@media (max-width: 900px) {
+  .catering-container {
+    padding: 60px 0 24px 0;
+  }
+  .catering-hero,
+  .catering-overview,
+  .catering-why,
+  .catering-booking,
+  .catering-testimonials,
+  .catering-closing,
+  .catering-menu {
+    padding: 18px 10px 14px 10px;
+    max-width: 98vw;
+  }
+  .catering-menu-grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

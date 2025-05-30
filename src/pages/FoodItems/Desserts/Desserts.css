@@ -1,0 +1,99 @@
+/* Desserts Page Styles */
+.dessert-items-container {
+  max-width: 1200px;
+  margin: 6rem auto 3rem auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.dessert-items-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #b76e79;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.dessert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+.dessert-card {
+  background: #fff7fa;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(183,110,121,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.dessert-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(183,110,121,0.13);
+}
+.dessert-img {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+.lava-cake .dessert-img { background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80'); }
+.cheesecake .dessert-img { background-image: url('https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80'); }
+.gulab-jamun .dessert-img { background-image: url('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80'); }
+.tiramisu .dessert-img { background-image: url('https://images.unsplash.com/photo-1514512364185-4c2b6781d6c5?auto=format&fit=crop&w=400&q=80'); }
+.brownie-sundae .dessert-img { background-image: url('https://images.unsplash.com/photo-1523987355523-c7b5b0723c8b?auto=format&fit=crop&w=400&q=80'); }
+.fruit-tart .dessert-img { background-image: url('https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80'); }
+.rasmalai .dessert-img { background-image: url('https://images.unsplash.com/photo-1600628422019-7e3c1e4a6c1e?auto=format&fit=crop&w=400&q=80'); }
+.ice-cream-trio .dessert-img { background-image: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80'); }
+.mango-mousse .dessert-img { background-image: url('https://images.unsplash.com/photo-1548365328-8b849e6f6c7f?auto=format&fit=crop&w=400&q=80'); }
+.apple-pie .dessert-img { background-image: url('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80'); }
+
+.dessert-info {
+  padding: 1rem 1.2rem 1.4rem 1.2rem;
+  text-align: center;
+}
+.dessert-info h2 {
+  color: #b76e79;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.dessert-info p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.add-item-btn {
+  display: inline-block;
+  background: #b76e79;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(183,110,121,0.12);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.add-item-btn:hover, .add-item-btn:focus {
+  background: #a05260;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px rgba(183,110,121,0.16);
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .dessert-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .dessert-items-container {
+    padding: 0.5rem;
+  }
+}
