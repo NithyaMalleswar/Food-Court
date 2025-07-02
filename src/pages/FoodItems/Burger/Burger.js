@@ -2,14 +2,14 @@ import React from "react";
 import "./Burger.css";
 
 const burgerItems = [
-  { name: "Classic Beef Burger", desc: "Juicy beef patty, lettuce, tomato, and cheese.", className: "classic-beef", img: process.env.PUBLIC_URL + "/burger/Beef-Burger.jpg" },
-  { name: "Chicken Burger", desc: "Crispy chicken fillet, mayo, and fresh veggies.", className: "chicken-burger", img: process.env.PUBLIC_URL + "/burger/Hot-Chicken.jpg" },
-  { name: "Veggie Burger", desc: "Grilled veggie patty, lettuce, and tomato.", className: "veggie-burger", img: process.env.PUBLIC_URL + "/burger/Veggie-Burger.jpg" },
-  { name: "Cheese Burst Burger", desc: "Cheesy patty with molten cheese center.", className: "cheese-burst-burger", img: process.env.PUBLIC_URL + "/burger/Cheese-Burger.jpg" },
-  { name: "BBQ Bacon Burger", desc: "Beef, bacon, BBQ sauce, and cheddar.", className: "bbq-bacon", img: process.env.PUBLIC_URL + "/burger/Bacon-Burger.jpg" },
-  { name: "Paneer Tikka Burger", desc: "Spicy paneer, onions, and mint chutney.", className: "paneer-tikka-burger", img: process.env.PUBLIC_URL + "/burger/Tikka-Burger.jpg" },
-  { name: "Fish Burger", desc: "Crispy fish fillet, lettuce, and tartar sauce.", className: "fish-burger", img: process.env.PUBLIC_URL + "/burger/Fish.jpg" },
-  { name: "Spicy Bean Burger", desc: "Spicy bean patty, salsa, and jalapenos.", className: "spicy-bean", img: process.env.PUBLIC_URL + "/burger/Spicy.jpg" },
+  { name: "Classic Beef Burger", desc: "Juicy beef patty, lettuce, tomato, and cheese.", className: "classic-beef", img: process.env.PUBLIC_URL + "/Burger/Beef-Burger.jpg" },
+  { name: "Chicken Burger", desc: "Crispy chicken fillet, mayo, and fresh veggies.", className: "chicken-burger", img: process.env.PUBLIC_URL + "/Burger/Hot-Chicken.jpg" },
+  { name: "Veggie Burger", desc: "Grilled veggie patty, lettuce, and tomato.", className: "veggie-burger", img: process.env.PUBLIC_URL + "/Burger/Veggie-Burger.jpg" },
+  { name: "Cheese Burst Burger", desc: "Cheesy patty with molten cheese center.", className: "cheese-burst-burger", img: process.env.PUBLIC_URL + "/Burger/Cheese-Burger.jpg" },
+  { name: "BBQ Bacon Burger", desc: "Beef, bacon, BBQ sauce, and cheddar.", className: "bbq-bacon", img: process.env.PUBLIC_URL + "/Burger/Bacon-Burger.jpg" },
+  { name: "Paneer Tikka Burger", desc: "Spicy paneer, onions, and mint chutney.", className: "paneer-tikka-burger", img: process.env.PUBLIC_URL + "/Burger/Tikka-Burger.jpg" },
+  { name: "Fish Burger", desc: "Crispy fish fillet, lettuce, and tartar sauce.", className: "fish-burger", img: process.env.PUBLIC_URL + "/Burger/Fish.jpg" },
+  { name: "Spicy Bean Burger", desc: "Spicy bean patty, salsa, and jalapenos.", className: "spicy-bean", img: process.env.PUBLIC_URL + "/Burger/Spicy.jpg" },
 ];
 
 const Burger = () => (
