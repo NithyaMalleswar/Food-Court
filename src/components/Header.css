@@ -98,7 +98,7 @@
 
 .nav {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 0;
 }
 
@@ -106,7 +106,7 @@
   text-decoration: none;
   color: #0a2463;
   font-size: 1.18rem;
-  font-weight: 500;
+  /* font-weight: 500; */
   transition: color 0.22s;
   display: flex;
   align-items: center;
@@ -134,7 +134,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-left: 18px;
+  /* margin-left: 18px; */
 }
 
 .dropdown-toggle {
@@ -227,11 +227,11 @@
   .nav {
     display: none;
     position: fixed;
-    top: 70px;
+    top: 89px;
     left: 0;
     right: 0;
     background: white;
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 999;
   }
@@ -239,7 +239,7 @@
   .nav.mobile-open {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
   }
 
   .dropdown-menu {
@@ -404,7 +404,7 @@
 
 @media (max-width: 600px) {
   .header {
-    padding: 8px 0;
+    padding: 20px 0;
   }
   .container {
     padding: 0 4px;
@@ -424,8 +424,8 @@
   }
   .nav-link,
   .dropdown-toggle {
-    font-size: 1rem;
-    padding: 12px 12px;
+    /* font-size: 1rem; */
+    /* padding: 12px 12px; */
   }
   .dropdown-menu {
     min-width: 94vw;
@@ -483,12 +483,11 @@
 
 @media (max-width: 480px) {
   .logo-img {
-    width: 36px;
-    height: 32px;
+    width: 60px;
+    height: 50px;
   }
   .logo-text {
-    font-size: 1rem;
-    margin-left: 2px;
+    font-size: 1.8rem;
   }
   .container {
     padding: 0 2px;

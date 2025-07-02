@@ -1,4 +1,7 @@
-/* Footer Base */
+/* ====================== */
+/* FOOTER STYLING */
+/* ====================== */
+
 .footer {
   background: linear-gradient(90deg, #30d5c8 60%, #f8fffe 100%);
   color: #ffffff;
@@ -13,14 +16,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 6rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 /* Brand Section */
 .footer-brand {
-  flex: 1 1 300px;
+  /* flex: 1 1 300px; */
   min-width: 250px;
 }
 
@@ -36,16 +39,26 @@
   width: 80px;
   height: 66px;
   object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo-link:hover .logo-img-large {
+  transform: scale(1.05);
 }
 
 .logo-text-large {
   font-size: 1.8rem;
   font-weight: bold;
   letter-spacing: 1px;
-  background:#0a2463;
+  background: #0a2463;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0;
+  margin: 0 0 0 10px;
+  transition: all 0.3s ease;
+}
+
+.logo-link:hover .logo-text-large {
+  letter-spacing: 1.2px;
 }
 
 /* Social Icons */
@@ -93,12 +106,17 @@
   box-sizing: border-box;
   background: none;
   box-shadow: none;
+  transition: transform 0.3s ease;
 }
 
 .social-icon:hover {
   transform: scale(1.13);
   filter: brightness(1.18) drop-shadow(0 4px 12px rgba(0,0,0,0.12));
   box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+}
+
+.social-icon:hover .icon-inner img {
+  transform: rotate(10deg);
 }
 
 /* Columns Section */
@@ -121,6 +139,18 @@
   color: #0a2463;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.footer-col h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #0a2463;
 }
 
 .footer-col ul {
@@ -184,19 +214,247 @@
   width: 100%;
 }
 
-/* --- Responsive Footer Styles --- */
+/* ====================== */
+/* TABLET DEVICE STYLES */
+/* ====================== */
+
+/* Standard Tablets (1200px - 1300px) */
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .footer {
+    padding: 3.5rem 2.5rem 2rem;
+  }
+  
+  .footer-main {
+    max-width: 1100px;
+  }
+  
+  .logo-img-large {
+    width: 85px;
+    height: 70px;
+  }
+  
+  .logo-text-large {
+    font-size: 1.9rem;
+  }
+  
+  .footer-columns {
+    gap: 2.2rem;
+  }
+  
+  .footer-col h4 {
+    font-size: 1.15rem;
+    margin-bottom: 1.1rem;
+  }
+  
+  .footer-col ul li a {
+    font-size: 0.98rem;
+  }
+  
+  .social-icon {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .icon-inner img {
+    width: 23px;
+    height: 23px;
+  }
+  
+  .footer .copyright {
+    margin-top: 3.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Large Tablets (1301px - 1400px) */
+@media (min-width: 1301px) and (max-width: 1400px) {
+  .footer {
+    padding: 4rem 3rem 2.2rem;
+  }
+  
+  .footer-main {
+    max-width: 1250px;
+  }
+  
+  .logo-img-large {
+    width: 90px;
+    height: 75px;
+  }
+  
+  .logo-text-large {
+    font-size: 2rem;
+  }
+  
+  .footer-columns {
+    gap: 2.5rem;
+  }
+  
+  .footer-col h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .footer-col ul li a {
+    font-size: 1rem;
+  }
+  
+  .social-icon {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .icon-inner img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer .copyright {
+    margin-top: 4rem;
+    font-size: 1rem;
+  }
+}
+
+/* Extra Large Tablets (1401px and above - before desktop) */
+@media (min-width: 1401px) {
+  .footer {
+    padding: 4.5rem 3.5rem 2.5rem;
+  }
+  
+  .footer-main {
+    max-width: 1350px;
+  }
+  
+  .logo-img-large {
+    width: 95px;
+    height: 80px;
+  }
+  
+  .logo-text-large {
+    font-size: 2.1rem;
+  }
+  
+  .footer-columns {
+    gap: 3rem;
+  }
+  
+  .footer-col h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer-contact-label {
+    min-width: 85px;
+  }
+  
+  .social-icon {
+    width: 46px;
+    height: 46px;
+  }
+  
+  .icon-inner img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer .copyright {
+    margin-top: 4.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+
+/* Large Laptops (1100px and below) */
 @media (max-width: 1100px) {
   .footer-main {
     max-width: 95vw;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
   
   .footer-columns {
     gap: 1.8rem;
   }
 }
+/* ====================== */
+/* TABLET HEADER STYLES (768px - 900px) */
+/* ====================== */
+@media (min-width: 769px) and (max-width: 900px) {
+  .header {
+    padding: 12px 0;
+  }
 
+  .container {
+    padding: 0 20px;
+  }
+
+  .logo-img {
+    width: 80px;
+    height: 72px;
+  }
+
+  .logo-text {
+    font-size: 32px;
+    letter-spacing: 1.2px;
+  }
+
+  .nav-link,
+  .dropdown-toggle {
+    font-size: 1.1rem;
+    padding: 0 14px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .dropdown {
+    margin-left: 12px;
+  }
+
+  .dropdown-menu {
+    min-width: 160px;
+  }
+
+  .dropdown-item {
+    padding: 12px 18px;
+    font-size: 0.95rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.95rem;
+    margin-top: 4px;
+  }
+
+  /* Mobile menu button remains hidden in this range */
+  .mobile-menu-button {
+    display: none;
+  }
+
+  /* Ensure nav remains visible */
+  .nav {
+    display: flex;
+    position: static;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  /* Adjust feature card sizing */
+  .feature-card {
+    padding: 28px 20px 22px;
+  }
+
+  .feature-img {
+    max-width: 220px;
+    height: 130px;
+  }
+
+  .feature-card h3 {
+    font-size: 1.2rem;
+  }
+}
+/* Tablets (900px and below) */
 @media (max-width: 900px) {
+  .footer {
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
   .footer-main {
     flex-direction: column;
     align-items: flex-start;
@@ -219,6 +477,7 @@
   }
 }
 
+/* Small Tablets (768px and below) */
 @media (max-width: 768px) {
   .footer {
     padding: 2.5rem 1.5rem 1.5rem;
@@ -242,39 +501,40 @@
   }
 }
 
+/* Large Mobiles (600px and below) - LEFT ALIGNED CONTENT */
 @media (max-width: 600px) {
   .footer {
     padding: 2rem 1.2rem 1.2rem;
-  text-align: center;
+    text-align: left; /* Changed from center to left */
   }
   
   .footer-main {
-    align-items: center;
+    align-items: flex-start; /* Changed from center to flex-start */
   }
   
   .logo-link {
-    justify-content: center;
+    justify-content: flex-start; /* Changed from center to flex-start */
     margin-bottom: 1.2rem;
   }
   
   .footer-brand {
-    text-align: center;
+    text-align: left; /* Changed from center to left */
   }
   
   .footer-socials {
-    justify-content: center;
+    justify-content: flex-start; /* Changed from center to flex-start */
   }
   
   .footer-columns {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start; /* Changed from center to flex-start */
+    text-align: left; /* Changed from center to left */
     gap: 2rem;
   }
   
   .footer-col {
     width: 100%;
-    max-width: 250px;
+    max-width: 100%; /* Changed from 250px to 100% */
   }
   
   .footer-col h4 {
@@ -282,16 +542,17 @@
   }
   
   .footer-contact-list li {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.2rem;
+    flex-direction: row; /* Changed from column to row */
+    align-items: flex-start; /* Changed from center to flex-start */
+    gap: 0.5rem;
   }
   
   .footer-contact-label {
-    min-width: auto;
+    min-width: 70px; /* Restored original value */
   }
 }
 
+/* Small Mobiles (480px and below) */
 @media (max-width: 480px) {
   .footer {
     padding: 1.8rem 1rem 1rem;
@@ -323,6 +584,7 @@
   }
 }
 
+/* Extra Small Mobiles (380px and below) */
 @media (max-width: 380px) {
   .footer {
     padding: 1.5rem 0.8rem 0.8rem;
@@ -344,5 +606,13 @@
   .social-icon {
     width: 34px;
     height: 34px;
+  }
+  
+  .footer-col h4 {
+    font-size: 1rem;
+  }
+  
+  .footer-col ul li a {
+    font-size: 0.9rem;
   }
 }

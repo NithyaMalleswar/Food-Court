@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "food-court-50393"
-  }
+    "default": "food-court-50393",
+    "build": "foddie-7a7d9"
+  },
+  "targets": {},
+  "etags": {}
 }
