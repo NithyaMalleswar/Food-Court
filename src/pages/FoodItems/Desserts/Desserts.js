@@ -14,12 +14,12 @@ const dessertItems = [
     className: "cheesecake", 
     img: process.env.PUBLIC_URL + "/desserts/Cheesecake.jpg" 
   },
-  { name: "Gulab Jamun", desc: "Soft milk-solid balls soaked in syrup.", className: "gulab-jamun", img: process.env.PUBLIC_URL + "/desserts/Gulab-Jamun.jpg" },
-  { name: "Tiramisu", desc: "Coffee-flavored Italian dessert.", className: "tiramisu", img: process.env.PUBLIC_URL + "/desserts/Tiramisu.jpg" },
-  { name: "Brownie Sundae", desc: "Chocolate brownie topped with ice cream.", className: "brownie-sundae", img: process.env.PUBLIC_URL + "/desserts/Brownie.jpg" },
-  { name: "Fruit Tart", desc: "Buttery crust with custard and fresh fruits.", className: "fruit-tart", img: process.env.PUBLIC_URL + "/desserts/Fruit.jpg" },
-  { name: "Rasmalai", desc: "Soft paneer balls in creamy milk.", className: "rasmalai", img: process.env.PUBLIC_URL + "/desserts/Rasmalai.jpg" },
-  { name: "Ice Cream Trio", desc: "Three scoops of assorted ice cream.", className: "ice-cream-trio", img: process.env.PUBLIC_URL + "/desserts/Ice.jpg" },
+  { name: "Gulab Jamun", desc: "Soft milk-solid balls soaked in syrup.", className: "gulab-jamun", img: process.env.PUBLIC_URL + "/Desserts/Gulab-Jamun.jpg" },
+  { name: "Tiramisu", desc: "Coffee-flavored Italian dessert.", className: "tiramisu", img: process.env.PUBLIC_URL + "/Desserts/Tiramisu.jpg" },
+  { name: "Brownie Sundae", desc: "Chocolate brownie topped with ice cream.", className: "brownie-sundae", img: process.env.PUBLIC_URL + "/Desserts/Brownie.jpg" },
+  { name: "Fruit Tart", desc: "Buttery crust with custard and fresh fruits.", className: "fruit-tart", img: process.env.PUBLIC_URL + "/Desserts/Fruit.jpg" },
+  { name: "Rasmalai", desc: "Soft paneer balls in creamy milk.", className: "rasmalai", img: process.env.PUBLIC_URL + "/Desserts/Rasmalai.jpg" },
+  { name: "Ice Cream Trio", desc: "Three scoops of assorted ice cream.", className: "ice-cream-trio", img: process.env.PUBLIC_URL + "/Desserts/Ice.jpg" },
 ];
 
 const Desserts = () => (
