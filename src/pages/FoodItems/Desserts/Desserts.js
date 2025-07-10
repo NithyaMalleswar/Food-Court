@@ -6,13 +6,13 @@ const dessertItems = [
     name: "Chocolate Lava Cake", 
     desc: "Warm chocolate cake with gooey center.", 
     className: "lava-cake", 
-    img: process.env.PUBLIC_URL + "/desserts/chacolate.jpg" 
+    img: process.env.PUBLIC_URL + "/Desserts/chacolate.jpg" 
   },
   { 
     name: "Cheesecake", 
     desc: "Classic creamy cheesecake with a biscuit base.", 
     className: "cheesecake", 
-    img: process.env.PUBLIC_URL + "/desserts/Cheesecake.jpg" 
+    img: process.env.PUBLIC_URL + "/Desserts/Cheesecake.jpg" 
   },
   { name: "Gulab Jamun", desc: "Soft milk-solid balls soaked in syrup.", className: "gulab-jamun", img: process.env.PUBLIC_URL + "/Desserts/Gulab-Jamun.jpg" },
   { name: "Tiramisu", desc: "Coffee-flavored Italian dessert.", className: "tiramisu", img: process.env.PUBLIC_URL + "/Desserts/Tiramisu.jpg" },
