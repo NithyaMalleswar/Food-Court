@@ -18,7 +18,7 @@ const pizzaItems = [
     name: "Veggie Supreme", 
     className: "veggie-supreme",
     desc: "Peppers, onions, olives, and mushrooms.", 
-    img: process.env.PUBLIC_URL + "/Pizza/Veggie Supreme.jpg" 
+    img: process.env.PUBLIC_URL + "/Pizza/Veggie.jpg" 
   },
   { 
     name: "BBQ Chicken", 
