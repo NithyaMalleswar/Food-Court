@@ -331,21 +331,7 @@
   background-size: cover;
   background-position: center;
 }
-.menu-img-burger {
-  background-image: url('https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=facearea&w=256&q=80');
-}
-.menu-img-pizza {
-  background-image: url('https://images.unsplash.com/photo-1548365328-8b8490b9daea?auto=format&fit=facearea&w=256&q=80');
-}
-.menu-img-pasta {
-  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=facearea&w=256&q=80');
-}
-.menu-img-hotdog {
-  background-image: url('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=facearea&w=256&q=80');
-}
-.menu-img-chicken {
-  background-image: url('https://images.unsplash.com/photo-1504674900247-ec6ce3d8b8df?auto=format&fit=facearea&w=256&q=80');
-}
+
 .menu-img-sandwich {
 
 /* New Category Layout Styles */

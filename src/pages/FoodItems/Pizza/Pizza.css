@@ -41,18 +41,6 @@
   background-position: center;
   margin-bottom: 1rem;
 }
-.margherita .pizza-img { background-image: url('https://images.unsplash.com/photo-1548365328-8b849e6f6c7f?auto=format&fit=crop&w=400&q=80'); }
-.pepperoni .pizza-img { background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80'); }
-.veggie-supreme .pizza-img { background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80'); }
-.bbq-chicken .pizza-img { background-image: url('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80'); }
-.hawaiian .pizza-img { background-image: url('https://images.unsplash.com/photo-1514512364185-4c2b6781d6c5?auto=format&fit=crop&w=400&q=80'); }
-.four-cheese .pizza-img { background-image: url('https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80'); }
-.meat-lovers .pizza-img { background-image: url('https://images.unsplash.com/photo-1523987355523-c7b5b0723c8b?auto=format&fit=crop&w=400&q=80'); }
-.paneer-tikka .pizza-img { background-image: url('https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80'); }
-.mexican-green .pizza-img { background-image: url('https://images.unsplash.com/photo-1600628422019-7e3c1e4a6c1e?auto=format&fit=crop&w=400&q=80'); }
-.farmhouse .pizza-img { background-image: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80'); }
-.peri-peri .pizza-img { background-image: url('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80'); }
-.cheese-burst .pizza-img { background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80'); }
 
 .pizza-info {
   padding: 1rem 1.2rem 1.4rem 1.2rem;

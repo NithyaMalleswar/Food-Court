@@ -62,7 +62,7 @@ const Menu = () => {
         <div className="menu-category">
           <div className="menu-category-heading">
             <img
-              src="chicken/biriyani.jpg"
+              src="chicken/curry.jpg"
               alt="Chicken"
               className="menu-category-img"
             />
@@ -102,7 +102,7 @@ const Menu = () => {
         <div className="menu-category">
           <div className="menu-category-heading">
             <img
-              src="salads/salad.jpg"
+              src="salads/Salad.jpg"
               alt="Salads"
               className="menu-category-img"
             />
@@ -142,7 +142,7 @@ const Menu = () => {
         <div className="menu-category">
           <div className="menu-category-heading">
             <img
-              src="Pizza/pizza.jpg"
+              src="Pizza/Margherita.jpg"
               alt="Pizza"
               className="menu-category-img"
             />
